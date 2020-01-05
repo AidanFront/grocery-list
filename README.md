@@ -1,3 +1,47 @@
+
+# Grocery List Test
+
+This application is a grocery list. 
+The application functions as a general list where items can be viewed, modified, added and deleted.
+Items can be tagged. With the tag items can be searched and filtered. This can be done with either through the search bar, or clicking on an existing tag which will filter for items with an the same tag.
+
+## Setup
+1. Cloning this repository
+2. In the command line run command 'npm install'
+3. In the command line run command 'npm start'
+The application will initialise (http://localhost:3000/)
+
+# Frameworks used
+- Create-React-App
+- Bootstrap 5.10.0
+- FontAwesome
+- Formik
+- SASS style system
+
+## The project requirements below 
+>Challenge Grocery Helper
+>Write a simple frontend and backend application that provides the following functionality
+>•	CRUD (create, read, update, delete) grocery items
+>•	Ability to tag grocery items by category
+>•	Ability to search by category
+>Front end
+>•	Feel free to use any framework of your choice
+>•	Test driven development
+>•	The UI doesn’t need to be pretty
+>•	Setup and running it should be easy
+>Back end
+>•	Leverage on Java/Spring or NodeJS
+>•	No need to persist data in a database. a simple in memory cache or similar should do
+>•	Test driven development
+>•	Setup and running the server should be easy
+>Please consider
+>•	Code quality
+>•	Best practices
+>•	Build tools
+>•	Design patterns
+
+# Below is further CRA boilerplate information. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

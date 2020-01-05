@@ -1,0 +1,43 @@
+.header {
+  .fa-carrot {
+    font-size: 1.5em; 
+    color: $orange;
+  }
+  h1 { 
+    font-size: 1.5em; 
+    font-family: 'Roboto', sans-serif;
+    color: $dark-blue;
+  }
+  .fa-search { 
+    right: 13px;
+    top: 7px;
+    color: $dark-blue;
+    opacity: 0.3;
+  }
+  .c-add-item {
+    height: 40px;
+    width: 40px;
+    border-width: 2px !important;
+    border-color: $medium-blue;
+    color: $medium-blue;
+    top: 20px;
+    right: 50px;
+    outline: none;
+    z-index: 1020;
+    box-shadow: 0px 0px 15px lighten($shadow-grey,10%);
+    @media (min-width: 768px) { 
+      right: calc((100vw - 720px)/2 + 25px);
+    }
+    @media screen and (min-width: 992px) {
+      right: calc((100vw - 960px)/2 + 25px);
+    }
+    @media screen and (min-width: 1200px) {
+      right: calc((100vw - 1140px)/2 + 25px);
+    }
+    &:hover {
+      background-color: $medium-blue; 
+      color: $white; 
+    }
+  }
+
+}

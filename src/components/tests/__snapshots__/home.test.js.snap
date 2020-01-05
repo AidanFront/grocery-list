@@ -1,0 +1,268 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`intergration rendering test of home page 1`] = `
+<main>
+  <div
+    class="container"
+  >
+    <header
+      class="header"
+    >
+      <div
+        class="py-4 row"
+      >
+        <div
+          class="col-12 col-md-6"
+        >
+          <i
+            class="fas fa-carrot"
+          />
+          <h1
+            class="pl-2 d-inline-flex"
+          >
+            Grocery List
+          </h1>
+        </div>
+        <div
+          class="pr-1 d-flex justify-content-md-center col-12 col-md-6"
+        >
+          <div
+            class="c-search-bar position-relative"
+          >
+            <input
+              class="rounded-pill px-2"
+              id="search"
+              placeholder="Search by Category"
+              type="text"
+              value=""
+            />
+            <i
+              class="fas fa-search position-absolute"
+            />
+          </div>
+        </div>
+        <button
+          class="c-add-item rounded-circle position-fixed"
+          data-testid="add-button"
+        >
+          <i
+            class="fas fa-plus"
+          />
+        </button>
+      </div>
+    </header>
+    <div
+      class="pt-3border-top"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="small text-truncate ml-2 col-6 col-sm-8"
+        >
+          <u>
+            NAME
+          </u>
+        </div>
+        <div
+          class="small text-truncate col-2 col-sm-1"
+        >
+          <u>
+            PRICE
+          </u>
+        </div>
+        <div
+          class="px-0 small text-truncate col-2 col-sm-1"
+        >
+          <u>
+            QUANTITY
+          </u>
+        </div>
+      </div>
+      <div
+        class="list-item my-1 rounded-pill px-2"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="d-flex justify-content-between col-6 col-sm-8"
+          >
+            <span
+              class="text-capitalize text-truncate"
+            >
+              Bananas
+            </span>
+            <button
+              class="list-item__tag text-uppercase rounded-pill border-0"
+            >
+              <b
+                class="text-truncate"
+              >
+                fruit
+              </b>
+            </button>
+          </div>
+          <div
+            class="d-flex justify-content-center col-2 col-sm-1"
+          >
+            <span
+              class="small"
+            />
+            $3.5
+          </div>
+          <div
+            class="d-flex justify-content-center px-0 col-2 col-sm-1"
+          >
+            <span
+              class="text-truncate"
+            >
+              1 Bunch
+            </span>
+          </div>
+          <div
+            class="list-item__quantity text-center p-0 col-2"
+          >
+            <button
+              class="border-0 d-inline-flex"
+            >
+              <i
+                class="fas fa-edit"
+              />
+            </button>
+            <button
+              class="border-0 d-inline-flex"
+            >
+              <i
+                class="fas fa-trash-alt"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="list-item my-1 rounded-pill px-2"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="d-flex justify-content-between col-6 col-sm-8"
+          >
+            <span
+              class="text-capitalize text-truncate"
+            >
+              Apples
+            </span>
+            <button
+              class="list-item__tag text-uppercase rounded-pill border-0"
+            >
+              <b
+                class="text-truncate"
+              >
+                fruit
+              </b>
+            </button>
+          </div>
+          <div
+            class="d-flex justify-content-center col-2 col-sm-1"
+          >
+            <span
+              class="small"
+            />
+            $4.1
+          </div>
+          <div
+            class="d-flex justify-content-center px-0 col-2 col-sm-1"
+          >
+            <span
+              class="text-truncate"
+            >
+              1
+            </span>
+          </div>
+          <div
+            class="list-item__quantity text-center p-0 col-2"
+          >
+            <button
+              class="border-0 d-inline-flex"
+            >
+              <i
+                class="fas fa-edit"
+              />
+            </button>
+            <button
+              class="border-0 d-inline-flex"
+            >
+              <i
+                class="fas fa-trash-alt"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="list-item my-1 rounded-pill px-2"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="d-flex justify-content-between col-6 col-sm-8"
+          >
+            <span
+              class="text-capitalize text-truncate"
+            >
+              Pears
+            </span>
+            <button
+              class="list-item__tag text-uppercase rounded-pill border-0"
+            >
+              <b
+                class="text-truncate"
+              >
+                fruit
+              </b>
+            </button>
+          </div>
+          <div
+            class="d-flex justify-content-center col-2 col-sm-1"
+          >
+            <span
+              class="small"
+            />
+            $2
+          </div>
+          <div
+            class="d-flex justify-content-center px-0 col-2 col-sm-1"
+          >
+            <span
+              class="text-truncate"
+            >
+              10
+            </span>
+          </div>
+          <div
+            class="list-item__quantity text-center p-0 col-2"
+          >
+            <button
+              class="border-0 d-inline-flex"
+            >
+              <i
+                class="fas fa-edit"
+              />
+            </button>
+            <button
+              class="border-0 d-inline-flex"
+            >
+              <i
+                class="fas fa-trash-alt"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+`;

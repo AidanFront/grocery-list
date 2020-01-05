@@ -1,0 +1,34 @@
+.list-item {
+  background-color: $light-blue;
+  button { 
+    background-color: $light-blue; 
+    &.list-item__tag { 
+      background-color: lighten($medium-blue, 40); 
+      font-size: 0.7em;
+      b { opacity: 0.5; }
+    }
+  }
+  .fas { opacity: 0.3; }
+  .fa-trash-alt:hover {
+    opacity: 1;
+    color: $red; 
+  }
+  &:hover {
+    color: $light-blue;
+    background-color: darken($light-blue,40);
+    button { 
+      background-color: darken($light-blue,40); 
+      outline: none;
+      &.list-item__tag { 
+        background-color: lighten($medium-blue, 40); 
+        &:hover b { opacity: 1; }
+      }
+      .fas { 
+        color: $light-blue; 
+        opacity: 1; 
+      }
+      .fa-edit:hover { color: darken($light-blue,60); }
+      .fa-trash-alt:hover { color: $red; }
+    }
+  }
+}

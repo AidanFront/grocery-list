@@ -20,8 +20,9 @@ The application will initialise (http://localhost:3000/)
 
 ## The project requirements below 
 >Challenge Grocery Helper
->Write a simple frontend and backend application that provides the following functionality
->•	CRUD (create, read, update, delete) grocery items
+
+>Write a simple frontend and backend application that provides the following functionality  
+>•	CRUD (create, read, update, delete) grocery items <br>
 >•	Ability to tag grocery items by category
 >•	Ability to search by category
 >Front end
